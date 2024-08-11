@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(196, 196, 196);
+    margin: 0px;
+    padding: 0px;
+}
+
+header::before {
+    content: "";
+    background: url('food5.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* justify-content:end ; */
+    /* align-items: center; */
+}
+
+.left {
+    align-self: flex-start;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.left2{
+    /* align-self:center; */
+    padding: 10px;
+    margin: 0px 5px;
+}
+.left2 h3{
+    padding: 0;
+    margin: 0;
+    font-size: 2.2rem;
+    font-family: 'Brush Script MT', cursive;
+    cursor: default;
+}
+
+.mid {
+    align-self: flex-end;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.mid button {
+    background-color: rgba(233, 217, 217, 0.586);
+    border: 1px;
+    border-radius: 100px;
+    font-size: 1.4rem;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+}
+
+.mid button:hover {
+    background-color: rgb(87, 87, 87);
+    color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-family: Tahoma, sans-serif;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 0px 15px;
+}
+
+.navbar li a:hover {
+    background-color: rgb(87, 87, 87);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.slogan1 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    margin: auto;
+    /* margin-top: 120px; */
+    margin-bottom: 50px;
+    display: block;
+    width: 80%;
+}
+
+.section-header h3 {
+    display: inline-block;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 65px;
+    line-height: 40px;
+    letter-spacing: 2.6px;
+    position: relative;
+    color: rgb(227, 165, 10);
+}
+
+.section-header h4 {
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.about p {
+    color: #777777;
+    letter-spacing: 0.35px;
+    line-height: 26px;
+    margin-bottom: 27px;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+}
+
+.container img {
+    opacity: 0.6;
+}
+
+.top-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-left h2 {
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    cursor: default;
+    padding: 5px;
+}
+
+.form_group {
+    text-align: center;
+}
+
+.form_group input {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 8px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(152, 106, 106);
+    width: 500px;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn1 {
+    padding: 10px 90px;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(90, 91, 79);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid rgb(111, 102, 102);
+    background-color: rgb(244, 242, 239);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn1:hover {
+    font-size: 22px;
+    color: rgb(26, 27, 23);
+    border: 2px solid rgb(210, 186, 157);
+    background-color: rgb(234, 203, 160);
+    border-radius: 10px;
+}
+
+.thank {
+    text-align: center;
+    background-color: rgb(100, 100, 100);
+    font-size: 30px;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
